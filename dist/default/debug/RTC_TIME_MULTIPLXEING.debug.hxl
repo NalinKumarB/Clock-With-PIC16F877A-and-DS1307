@@ -1,33 +1,40 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- /tmp/xcXkjBjnC/driver_tmp_3.o
- -Odist/default/production/RTC.X.production.hex
- -logfile=dist/default/production/RTC.X.production.hxl
- -format=INHX032
+ C:\Users\NALINK~1\AppData\Local\Temp\xcAssgg.\driver_tmp_3.o
+ -Odist/default/debug\RTC_TIME_MULTIPLXEING.debug.hex
+ -logfile=dist/default/debug\RTC_TIME_MULTIPLXEING.debug.hxl
  -addressing=2
 
 ### Memory Usage ###
  Input file ranges:
-  0h - 25h		(/tmp/xcXkjBjnC/driver_tmp_3.o)
-  D58h - FFFh		(/tmp/xcXkjBjnC/driver_tmp_3.o)
-  400Eh - 400Fh		(/tmp/xcXkjBjnC/driver_tmp_3.o)
+  0h - 29h		(C:\Users\NALINK~1\AppData\Local\Temp\xcAssgg.\driver_tmp_3.o)
+  CFAh - FFFh		(C:\Users\NALINK~1\AppData\Local\Temp\xcAssgg.\driver_tmp_3.o)
+  4000h - 4007h		(C:\Users\NALINK~1\AppData\Local\Temp\xcAssgg.\driver_tmp_3.o)
+  400Eh - 400Fh		(C:\Users\NALINK~1\AppData\Local\Temp\xcAssgg.\driver_tmp_3.o)
  Unused ranges:
-  26h - D57h
-  1000h - 400Dh
+  2Ah - CF9h
+  1000h - 3FFFh
+  4008h - 400Dh
 
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Input file             (/tmp/xcXkjBjnC/driver_tmp_3.o)
+  H1 = Input file             (C:\Users\NALINK~1\AppData\Local\Temp\xcAssgg.\driver_tmp_3.o)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------
 00000000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000010 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00000020 | H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- --
+00000020 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
 ----------------------------------------------------------
-00000D50 | -- -- -- -- -- -- -- -- H1 H1 H1 H1 H1 H1 H1 H1
+00000CF0 | -- -- -- -- -- -- -- -- -- -- H1 H1 H1 H1 H1 H1
+00000D00 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000D10 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000D20 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000D30 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000D40 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000D50 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000D60 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000D70 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000D80 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
@@ -71,4 +78,4 @@
 00000FE0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000FF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 ----------------------------------------------------------
-00004000 | -- -- -- -- -- -- -- -- -- -- -- -- -- -- H1 H1
+00004000 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- H1 H1
